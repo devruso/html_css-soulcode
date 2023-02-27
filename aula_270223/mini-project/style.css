@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+main{
+    background-image: url("./pinguim.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+
+nav{
+    background-color: rgb(173, 198, 219);
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background: linear-gradient(90deg, rgba(74,69,159,1) 14%, rgba(11,92,148,1) 47%, rgba(2,162,222,1) 84%, rgba(0,212,255,1) 100%);
+    border-radius: 10px;
+    padding: 20px 0 0 10px;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    display: block;
+    padding: 5px 10px;
+    margin: 5px 0px 5px 0px;
+    text-decoration: none;
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8%;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+.btn:active{
+   background-color: aquamarine;
+}
